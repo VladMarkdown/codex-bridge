@@ -1,0 +1,16 @@
+# Auth token store — NEVER commit. Lives in ~/.codex-bridge/ by default.
+.codex-bridge/
+auth.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

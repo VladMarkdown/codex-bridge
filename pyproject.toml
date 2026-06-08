@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codex-bridge"
+version = "0.1.0"
+description = "Bridge to call OpenAI Codex (GPT-5.x, Sign in with ChatGPT) from the CLI or another agent."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "dedperdedev" }]
+keywords = ["codex", "openai", "gpt-5", "bridge", "cli", "multi-model"]
+
+[project.scripts]
+codex-bridge = "codex_bridge:main"
+
+[tool.setuptools]
+py-modules = ["codex_bridge"]
