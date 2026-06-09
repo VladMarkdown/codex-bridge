@@ -3,6 +3,6 @@
   "displayName": "Codex Bridge",
   "description": "Consult OpenAI Codex (GPT-5.x) from Claude Code — delegate a subtask, get a second opinion, or cross-check a tricky problem with another model.",
   "version": "0.1.0",
-  "author": { "name": "dedperdedev" },
+  "author": { "name": "VladMarkdown" },
   "keywords": ["codex", "openai", "gpt-5", "bridge", "second-opinion", "multi-model"]
 }

@@ -9,7 +9,7 @@ description = "Bridge to call OpenAI Codex (GPT-5.x, Sign in with ChatGPT) from 
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [{ name = "dedperdedev" }]
+authors = [{ name = "VladMarkdown" }]
 keywords = ["codex", "openai", "gpt-5", "bridge", "cli", "multi-model"]
 
 [project.scripts]

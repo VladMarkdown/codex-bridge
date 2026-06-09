@@ -15,8 +15,8 @@ codex-bridge ask "Give me an alternative implementation of this LRU cache, then 
 Requires Python 3.9+. Install as a CLI (puts `codex-bridge` on your PATH):
 
 ```bash
-pipx install git+https://github.com/dedperdedev/codex-bridge
-# or:  pip install git+https://github.com/dedperdedev/codex-bridge
+pipx install git+https://github.com/VladMarkdown/codex-bridge
+# or:  pip install git+https://github.com/VladMarkdown/codex-bridge
 # or, from a clone:  pipx install .
 ```
 
@@ -64,7 +64,7 @@ sse = respond(
 This repo is also a Claude Code plugin (a skill + a `/codex` command).
 
 ```text
-/plugin install codex-bridge@dedperdedev/codex-bridge
+/plugin install codex-bridge@VladMarkdown/codex-bridge
 ```
 
 Then either run `/codex-bridge:codex <your question>`, or just ask Claude to
